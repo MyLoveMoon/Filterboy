@@ -4,8 +4,8 @@ RUN apt update && apt upgrade -y
 RUN apt install git -y
 COPY requirements.txt /requirements.txt
 
-RUN cd /Filterboy
+RUN cd /filterboy
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-WORKDIR /Filterboy
+WORKDIR /filterboy
 COPY . .
 CMD ["/bin/bash", "/start.sh"]
