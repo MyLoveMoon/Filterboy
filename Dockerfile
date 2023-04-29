@@ -9,4 +9,3 @@ COPY . /groot/
 WORKDIR /groot/
 RUN pip3 install -U -r requirements.txt
 CMD python3 bot.py
-CMD ["/bin/bash", "/start.sh"]
