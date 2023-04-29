@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/CyberTG/TOM-BOT",
-    "repository": "https://github.com/CyberTG/TOM-BOT",
+    "repository": "https://github.com/MyLoveMoon/Filterboy",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
